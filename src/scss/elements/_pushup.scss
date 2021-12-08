@@ -1,0 +1,30 @@
+.pushup__container {
+  width: 1400px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px;
+  }
+  h2 {
+    text-align: center;
+    margin: 20px auto;
+  }
+}
+
+.pushup__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.pushup__list {
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}

@@ -1,0 +1,55 @@
+.login__container {
+  background-image: url("../../images/pushupLOG.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vh - 151px);
+  display: grid;
+  place-items: center;
+  .container {
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+  }
+  .login__field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 50px;
+  }
+  .login__input {
+    color: orangered;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 220px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .login__header {
+    color: orangered;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-family: $font-family-primary;
+    font-size: 20px;
+  }
+  .login__btn {
+    color: orangered;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+}
+//.login__container:before {
+//  position: absolute;
+//  content: "";
+//  width: 100%;
+//  height: calc(100vh - 151px);
+//  background: rgba(223, 39, 39, 0.3);
+//}
+

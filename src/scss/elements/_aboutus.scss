@@ -1,0 +1,32 @@
+.about__container {
+  background-image: url("../../images/aupull.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vh - 151px);
+  display: grid;
+  place-items: center;
+  h1 {
+    font-size: 5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: $font-family-primary;
+  }
+  h2 {
+    margin: 0 100px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: $font-family-primary;
+    text-align: center;
+    margin-bottom: 200px;
+  }
+}
+.about__container:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: calc(100vh - 151px);
+  background: rgba(59, 47, 47, 0.3);
+}

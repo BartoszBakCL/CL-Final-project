@@ -1,0 +1,39 @@
+.footer__container {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 75px;
+  background: #222;
+  box-shadow: #ff8000 0 0 20px;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer__logo * {
+  color: orangered;
+  font-family: $font-logo !important;
+  font-size: 40px;
+}
+
+.footer__github * {
+  color: orangered;
+}
+
+.footer__socials {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.footer__link *,
+.footer__copyright {
+  margin-left: 5px;
+  color: orangered;
+  font-size: 0.8rem;
+  padding-top: 6px;
+}

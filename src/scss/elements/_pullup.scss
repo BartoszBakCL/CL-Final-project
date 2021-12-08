@@ -1,0 +1,60 @@
+.pullup__container {
+  width: 1400px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px;
+  }
+  h2 {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+  }
+  h3 {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+  }
+}
+.btn__pull {
+  padding: 4px 8px;
+  border-radius: 3px;
+  background-color: #222;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+.btn__0-4 {
+  margin-left: 85px;
+}
+.btn__5-8 {
+  margin-left: 92px;
+}
+.btn__9-11 {
+  margin-left: 96px;
+}
+.btn__12-15 {
+  margin-left: 100px;
+}
+.btn__16-20,
+.btn__21-25,
+.btn__26-30 {
+  margin-left: 100px;
+}
+
+.pullup__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.pullup__list {
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}

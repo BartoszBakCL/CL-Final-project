@@ -1,0 +1,16 @@
+body {
+  background-color: rgba(0, 0, 0, 0.03);
+  font-family: $font-family-primary !important;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  font-family: $font-family-primary !important;
+}
